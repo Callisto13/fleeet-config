@@ -30,7 +30,7 @@ spec:
         args:
         - --leader-elect
         imagePullPolicy: IfNotPresent
-        image: squaremo/fleeet-control:latest
+        image: claudiaberesford/fleeet-control:latest
         name: manager
         securityContext:
           allowPrivilegeEscalation: false
